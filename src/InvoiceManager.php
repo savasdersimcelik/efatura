@@ -227,7 +227,7 @@ class InvoiceManager
      * @param string $token
      * @return furkankadioglu\eFatura\InvoiceManager
      */
-    public function getToken($token)
+    public function getToken()
     {
         return $this->token;
     }
